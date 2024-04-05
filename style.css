@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: white;
+}
+
+.Navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* background-color: #becfe2; */
+    /* color: #655550; */
+    background-color: white;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+    /* Ensure navbar is above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* Add shadow */
+}
+
+.animated-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30%;
+    transition: background-color 0.3s ease;
+  }
+  
+  .animated-button:hover {
+    background-color:  #c9ada4;
+    border-radius: 30%;
+    
+    ;
+  }
+
+.logo {
+    right: 0;
+    font-size: 50px;
+    padding: 0;
+    left: 0;
+}
+
+#logo_pic {
+     width: 70px;
+     padding: 0px
+}
+
+.navContent ul {
+    list-style-type: none;
+    display: flex;
+    left: 0;
+}
+
+.navContent ul li a {
+    margin-right: 20px;
+    font-size: large;
+    cursor: pointer;
+    text-decoration: none;
+    color: #655550;
+    border-radius: 30%;
+   
+    
+}
+
+.CVcontent {
+    padding-top: 140px;
+    color: #655550;   
+ }
+
+
+.AboutMe {
+    height: 150vh;
+    /* Make section take up full viewport height */
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    padding: 0 0;
+}
+
+.AboutMe ul {
+    flex-direction: row;
+    display: flex;
+    list-style-type: none;
+}
+
+.AboutMe li {
+   margin-left: 200px;
+    margin-right: 50px;
+}
+
+#nume {
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+#descriere {
+    text-align: center;
+    width: 300px;
+  
+}
+
+
+
+
+#profile-picture {
+    position: absolute;
+    left: 0;
+    top: 140px;
+   
+   
+}
+
+
+.list-header {
+     display:flex; 
+    position: relative; 
+    left:0; 
+    width: 50%;
+    height: 400px;
+}
+
+.list-body {
+    width: 50%;
+    position: relative;
+    right: 0;
+}
+
+.sections {
+
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 0;
+    border-radius: 20px; /* Adjust the border-radius to your preference */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Add shadow */
+}
+
+#Blog {
+    
+    flex-direction: column;
+    padding: 20px;
+}
+
+#skill-list {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  
+
+}
+
+#engineering {
+    margin-right: 60px;
+    text-align: center;
+}
+
+#language {
+    margin-left: 60px;
+    text-align: center;
+}
+
+.title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.list-body {
+    
+    top: 50px;
+    padding: 20px; /* Add padding for better readability */
+}
+
+#education table {
+    margin-top: 70px;
+}
+
+.list-body ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+#studii {
+    position: relative;
+ right: 100px;
+
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contact-section {
+    background-color: #655550;
+    color: #fff; /* White text color */
+    padding: 50px 0; /* Adjust padding as needed */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 28px;
+}
+
+.contact-details {
+    margin-top: 30px;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.contact-details p strong {
+    font-weight: bold;
+}
+
+
+
+.copyable {
+    color: #fff; /* White text color */
+    cursor: pointer;
+    user-select: all; /* Make text selectable */
+}
+
+.copyable:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.contact-details a {
+    color: #fff; /* White color for link */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth transition for link color change */
+}
+
+.contact-details a:hover {
+    color: #99ccff; /* Change link color on hover */
+}

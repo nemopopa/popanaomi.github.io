@@ -1,0 +1,8 @@
+adaugare iconite la fiecare sectiune ok
+vertical line?
+advanced selector in css
+animation or translation property ok
+
+js: 3 componente ish
+ideea: cand merg la sectiunea educaton sa se lumineze background?
+skill counter?
